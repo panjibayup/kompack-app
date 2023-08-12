@@ -16,7 +16,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-2 col-md-2 col-2">
-              <img src="../assets/download (1).png" alt="" />
+              <img src="../assets/download(1).png" alt="" />
             </div>
             <div class="col-lg-9 col-md-6 col-7">
               <p>Adanya SOP untuk mendukung keamanan dan kelancaran proses fulfillment</p>
