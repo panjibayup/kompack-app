@@ -42,7 +42,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-2 col-md-2 col-2">
-              <img class="terakhir" src="../assets/download(2).png" alt="" />
+              <img class="terakhir" src="../assets/downloadlagi.png" alt="" />
             </div>
             <div class="col-lg-10 col-md-6 col-7 three">
               <p>Tim yang memiliki keterampilan pergudangan</p>
