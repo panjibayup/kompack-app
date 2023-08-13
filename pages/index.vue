@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <HomePage />
-  </div>
+  <HeaderPage />
+  <HomePage />
+  <MasalahPage />
+  <KelebihanPage />
+  <KomshipPage />
+  <LayananKompack />
+  <MapPage />
+  <!-- <WaPage /> -->
+  <FooterPage />
 </template>
-
-<script>
-import HomePage from "../components/HomePage.vue";
-export default {
-  name: "HomeLayout",
-  components: { HomePage },
-};
-</script>

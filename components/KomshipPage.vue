@@ -1,9 +1,12 @@
 <template>
   <div class="komship">
     <section id="section-komship" class="container section-komship">
-      <div class="head text-center">
-        <h2 class="fw-bold">Makin hemat atur pengiriman</h2>
-        <h2 class="fw-bold">paket orderan dengan <img src="../assets/komship-logo-new.9c1d2ff.svg" alt="komship" /></h2>
+      <div class="head d-none d-sm-block text-center">
+        <h2>Makin hemat atur pengiriman</h2>
+        <h2>paket orderan dengan <img src="../assets/komship-logo-new.9c1d2ff.svg" alt="komship" /></h2>
+      </div>
+      <div class="head-mobile d-block d-sm-none text-center">
+        <h2 class="fs-5">Makin hemat atur pengiriman paket orderan dengan <img src="../assets/komship-logo-new.9c1d2ff.svg" alt="komship" /></h2>
       </div>
       <section id="benefitPage">
         <div class="container benefit-container">
@@ -24,7 +27,7 @@
             </div>
           </div>
           <div class="head-2 text-center">
-            <h2 class="fw-bold">Rekomendasi untuk kamu</h2>
+            <h2 class="fw-bold d-none d-sm-block">Rekomendasi untuk kamu</h2>
           </div>
           <div class="benefit-table-desktop">
             <div class="row">
@@ -65,106 +68,106 @@
               <div class="col-md-2 p-4 second">Gratis se-lndonesia*</div>
             </div>
           </div>
-          <!-- <div class="benefit-table-mobile">
-            <div class="mt-4 mb-2" style="text-align: center">
-              <button class="btn btn-sm btn-menu" @click="benefitJne()">JNE</button>
-              <button class="btn btn-sm btn-menu" @click="benefitSicepat()">SiCepat</button>
-              <button class="btn btn-sm btn-menu" @click="benefitId()">IDExpress</button>
-              <button class="btn btn-sm btn-menu" @click="benefitSap()">SAP</button>
-            </div>
-            <div v-if="benefitJneChecked === true" class="jne">
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
-                <div class="col-6 p-3 subhead">JNE</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Diskon Ongkir</div>
-                <div class="col-6 p-3">Reg 25%</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya COD</div>
-                <div class="col-6 p-3">
-                  2.8%
-                  <div>(PPN ditanggung Komship)</div>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya Retur</div>
-                <div class="col-6 p-3">Gratis se-lndonesia*</div>
-              </div>
-            </div>
-            <div v-else-if="benefitSicepatChecked === true" class="sicepat">
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
-                <div class="col-6 p-3 subhead">Sicepat</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Diskon Ongkir</div>
-                <div class="col-6 p-3">
-                  <li class="list-benefit">Reg 30%</li>
-                  <li class="list-benefit">Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)</li>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya COD</div>
-                <div class="col-6 p-3">
-                  2.8%
-                  <div>(PPN ditanggung Komship)</div>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya Retur</div>
-                <div class="col-6 p-3">Gratis se-lndonesia*</div>
-              </div>
-            </div>
-            <div v-else-if="benefitIdChecked === true" class="idexpress">
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
-                <div class="col-6 p-3 subhead">ID Express</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Diskon Ongkir</div>
-                <div class="col-6 p-3">
-                  <li class="list-benefit">Reg 25%</li>
-                  <li class="list-benefit">"(>1/2 kg)1/2 Kg bayar 1/2-nya* +diskon 15%"</li>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya COD</div>
-                <div class="col-6 p-3">
-                  2.8%
-                  <div>(PPN ditanggung Komship)</div>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya Retur</div>
-                <div class="col-6 p-3">Gratis se-lndonesia*</div>
-              </div>
-            </div>
-            <div v-else class="sap">
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
-                <div class="col-6 p-3 subhead">SAP</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Diskon Ongkir</div>
-                <div class="col-6 p-3">Reg 35%</div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya COD</div>
-                <div class="col-6 p-3">
-                  2.8%
-                  <div>(PPN ditanggung Komship)</div>
-                </div>
-              </div>
-              <div class="row" data-aos="fade-right" data-aos-duration="1500">
-                <div class="col-6 p-3 head">Biaya Retur</div>
-                <div class="col-6 p-3">Gratis se-lndonesia*</div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </section>
+      <div class="benefit-table-mobile">
+        <div class="mt-4 mb-2" style="text-align: center">
+          <button class="btn btn-sm btn-menu" @click="benefitJne()">JNE</button>
+          <button class="btn btn-sm btn-menu" @click="benefitSicepat()">SiCepat</button>
+          <button class="btn btn-sm btn-menu" @click="benefitId()">IDExpress</button>
+          <button class="btn btn-sm btn-menu" @click="benefitSap()">SAP</button>
+        </div>
+        <div v-if="benefitJneChecked === true" class="jne">
+          <div class="row">
+            <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
+            <div class="col-6 p-3 subhead"><img src="../assets/logo_jne.04e5ed3.png" class="logo" alt="JNE" /></div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Diskon Ongkir</div>
+            <div class="col-6 p-3">Reg 25%</div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya COD</div>
+            <div class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya Retur</div>
+            <div class="col-6 p-3">Gratis se-lndonesia*</div>
+          </div>
+        </div>
+        <div v-else-if="benefitSicepatChecked === true" class="sicepat">
+          <div class="row">
+            <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
+            <div class="col-6 p-3 subhead"><img src="../assets/logo_sicepat.22fcee9.png" class="logo" alt="Sicepat" /></div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Diskon Ongkir</div>
+            <div class="col-6 p-3">
+              <li class="list-benefit">Reg 30%</li>
+              <li class="list-benefit">Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)</li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya COD</div>
+            <div class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya Retur</div>
+            <div class="col-6 p-3">Gratis se-lndonesia*</div>
+          </div>
+        </div>
+        <div v-else-if="benefitIdChecked === true" class="idexpress">
+          <div class="row">
+            <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
+            <div class="col-6 p-3 subhead"><img src="../assets/logo_idexpress.9daac82.png" class="logo" alt="logo" /></div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Diskon Ongkir</div>
+            <div class="col-6 p-3">
+              <li class="list-benefit">Reg 25%</li>
+              <li class="list-benefit">"(>1/2 kg)1/2 Kg bayar 1/2-nya* +diskon 15%"</li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya COD</div>
+            <div class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya Retur</div>
+            <div class="col-6 p-3">Gratis se-lndonesia*</div>
+          </div>
+        </div>
+        <div v-else class="sap">
+          <div class="row">
+            <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
+            <div class="col-6 p-3 subhead"><img src="../assets/logo_sap.2042681.png" class="logo" alt="" /></div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Diskon Ongkir</div>
+            <div class="col-6 p-3">Reg 35%</div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya COD</div>
+            <div class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 head">Biaya Retur</div>
+            <div class="col-6 p-3">Gratis se-lndonesia*</div>
+          </div>
+        </div>
+      </div>
       <section class="recomend mt-5">
         <div class="container">
           <div class="row justify-content-center">
@@ -209,6 +212,48 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  name: "BenefitPage",
+  components: {},
+
+  data() {
+    return {
+      benefitJneChecked: true,
+      benefitSicepatChecked: true,
+      benefitIdChecked: true,
+      benefitSapChecked: true,
+    };
+  },
+  methods: {
+    benefitJne() {
+      this.benefitJneChecked = true;
+      this.benefitSicepatChecked = false;
+      this.benefitIdChecked = false;
+      this.benefitSapChecked = false;
+    },
+    benefitSicepat() {
+      this.benefitJneChecked = false;
+      this.benefitSicepatChecked = true;
+      this.benefitIdChecked = false;
+      this.benefitSapChecked = false;
+    },
+    benefitId() {
+      this.benefitJneChecked = false;
+      this.benefitSicepatChecked = false;
+      this.benefitIdChecked = true;
+      this.benefitSapChecked = false;
+    },
+    benefitSap() {
+      this.benefitJneChecked = false;
+      this.benefitSicepatChecked = false;
+      this.benefitIdChecked = false;
+      this.benefitSapChecked = true;
+    },
+  },
+};
+</script>
 <style scoped>
 .komship {
   padding: 0 120px;
@@ -220,7 +265,6 @@
   padding-top: 20px;
   padding-bottom: 80px;
   border-radius: 24px;
-  font-family: "Poppins" sans-serif;
 }
 .head {
   justify-content: center;
@@ -309,7 +353,7 @@ img.logo {
 }
 
 /* Mobile*/
-.active {
+.btn-menu:focus {
   color: #ff6a3a;
   border: 1px solid #ff6a3a;
 }
@@ -391,6 +435,25 @@ img.logo {
 }
 
 @media (max-width: 767.98px) {
+  .komship {
+    padding: 0;
+  }
+  #section-komship {
+    justify-content: center;
+    background-color: #d4e3fc;
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  img.logo {
+    width: 70px;
+    height: 30px;
+  }
+
   .benefit-table-desktop {
     display: none;
   }
@@ -411,13 +474,13 @@ img.logo {
     overflow-x: hidden;
   }
   .benefit-table-mobile .head {
-    background-color: #fba63c;
+    background-color: #dddddd;
     font-family: "Poppins";
     font-weight: 600;
     font-size: 14px;
   }
   .benefit-table-mobile .subhead {
-    background-color: #ff6a3a;
+    background-color: #fff;
     font-family: "Poppins";
     font-weight: 600;
     font-size: 14px;

@@ -2,7 +2,7 @@
   <section id="section-1">
     <div class="container">
       <div class="row mt-5">
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 kolom-mobile ml-5">
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 d-block d-sm-none ml-5">
           <div class="model-image mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="image-desktop" />
           </div>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 colom-kedua ml-5">
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 d-none d-sm-block ml-5">
           <div class="model-image mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="image-desktop" />
           </div>
@@ -35,9 +35,7 @@
 .kolom-satu {
   align-self: center;
 }
-.kolom-mobile {
-  display: none;
-}
+
 h2.judul-komponen {
   font-weight: 700;
   font-family: "Poppins" sans-serif;
@@ -57,12 +55,7 @@ h2.judul-komponen {
     text-align: center;
     margin: auto;
   }
-  .kolom-mobile {
-    display: block;
-  }
-  .colom-kedua {
-    display: none;
-  }
+
   .hubungi-kami {
     width: 100%;
     font-weight: 500;
