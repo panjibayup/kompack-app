@@ -9,7 +9,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto ms-auto justify-content-beetwen">
+          <ul class="navbar-nav mx-auto justify-content-beetwen">
             <li class="nav-item">
               <nuxt-link class="nav-link" to="/">Beranda</nuxt-link>
             </li>

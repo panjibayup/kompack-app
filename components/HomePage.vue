@@ -2,28 +2,28 @@
   <section id="section-1">
     <div class="container">
       <div class="row mt-5">
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 d-block d-sm-none ml-5">
-          <div class="model-image mt-5">
-            <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="image-desktop" />
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 mx-auto d-block d-sm-none ml-5">
+          <div class="mt-5">
+            <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="img-fluid" />
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 col-10 kolom-satu">
-          <div class="komponen-pertama">
-            <h2 class="judul-komponen">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-10 ms-md-5 align-self-center">
+          <div class="">
+            <h2 class="fw-bold">
               <span class="text-primary">Jasa Pergudangan</span><br />
               Terpercaya Untuk Bisnis Online Kamu
             </h2>
             <p class="ket-komponen">Kompack adalah solusi untuk masalah pergudangan, management, dan pengemasan barang</p>
             <div class="button-komponen">
               <a href="#section-2">
-                <button type="button" class="btn btn-1 btn-primary hubungi-kami">Pelajari lebih lanjut</button>
+                <button type="button" class="btn btn-1 rounded-5 btn-primary py-3 px-5 fw-semibold">Pelajari lebih lanjut</button>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 d-none d-sm-block ml-5">
-          <div class="model-image mt-5">
-            <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="image-desktop" />
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 ms-5 mb-5 d-none d-sm-block ml-5">
+          <div class="mt-5">
+            <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="ms-5 img-fluid" />
           </div>
         </div>
       </div>
@@ -32,49 +32,15 @@
 </template>
 
 <style scoped>
-.kolom-satu {
-  align-self: center;
-}
-
-h2.judul-komponen {
-  font-weight: 700;
-  font-family: "Poppins" sans-serif;
-}
-.btn {
-  border-radius: 20px;
-  height: 50px;
-}
-.model-image img.image-desktop {
-  width: 95%;
-  margin-left: 200px;
-}
-
 /* RESPONSIVE */
 @media (max-width: 767.98px) {
-  .kolom-satu {
+  .align-self-center {
     text-align: center;
     margin: auto;
   }
 
-  .hubungi-kami {
-    width: 100%;
-    font-weight: 500;
-  }
-  h2.judul-komponen {
-    font-size: 28px;
-  }
   .ket-komponen {
     font-size: 14px;
-  }
-}
-.model-image img.image-desktop {
-  margin-left: 35px;
-  margin-top: 10px;
-}
-@media (min-width: 991.98px) {
-  .model-image img.image-desktop {
-    width: 95%;
-    margin-left: 200px;
   }
 }
 </style>

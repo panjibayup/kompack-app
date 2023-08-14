@@ -4,15 +4,15 @@
       <div class="container">
         <div class="row sect-2">
           <div class="col-xl-12">
-            <h2 class="text-center">
+            <h2 class="mt-5 fw-semibold text-center">
               Apakah kamu <br />
               mengalami masalah ini?
             </h2>
           </div>
 
-          <div class="row justify-content-center head-conten">
+          <div class="row justify-content-center mt-5 justify-content-center">
             <div class="col-lg-5 col-md-6 conten-sect2">
-              <div class="row row-sect2">
+              <div class="row mt-2 justify-content-center">
                 <div class="col-lg-2 col-md-2 icon-sect2">
                   <img src="../assets/home.0f137a7.png" alt="rumah" />
                 </div>
@@ -22,7 +22,7 @@
               </div>
             </div>
             <div class="col-lg-5 col-md-6 conten-sect2">
-              <div class="row row-sect2">
+              <div class="row mt-2 justify-content-center">
                 <div class="col-lg-2 col-md-2 icon-sect2">
                   <img src="../assets/jam.60da5ff.png" alt="jam" />
                 </div>
@@ -37,10 +37,10 @@
     </div>
   </section>
   <section id="section-3">
-    <div class="head-sect3">
-      <h2 class="text-center">Mengapa harus Kompack?</h2>
+    <div class="head-sect3 mt-2">
+      <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
-    <div class="row justify-content-center row-sect3">
+    <div class="row justify-content-center row-sect3 mt-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
         <div class="conten-sect3 pt-3 pb-3">
           <img class="image-sect3" src="../assets/practis.584a411.svg" alt="praktis" />
@@ -57,7 +57,7 @@
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
         <div class="conten-sect3 pt-3 pb-3">
-          <img class="mudah" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
+          <img class="ms-4 mt-4" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
           <h4 class="pt-3">Mudah</h4>
           <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
         </div>
@@ -67,15 +67,6 @@
 </template>
 
 <style scoped>
-h2.text-center {
-  margin-top: 50px;
-  font-size: 32px;
-  font-weight: 600;
-}
-.head-conten {
-  margin-top: 60px;
-  justify-content: center;
-}
 .subhead-sect2 p {
   align-self: center;
   text-align: left;
@@ -94,10 +85,7 @@ h2.text-center {
   border-radius: 15px;
   cursor: pointer;
 }
-.row-sect2 {
-  justify-content: center;
-  margin-top: 20px;
-}
+
 .head-sect3 h2 {
   text-align: center;
   margin-top: 120px;
@@ -121,10 +109,6 @@ h2.text-center {
   box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
 }
 
-img.mudah {
-  margin-top: 30px;
-  margin-left: 20px;
-}
 h4.pt-3 {
   text-align: center;
 }
@@ -150,9 +134,6 @@ h4.pt-3 {
 img.image-sect3 {
   margin-left: 50px;
 }
-img.mudah {
-  margin-left: 40px;
-}
 
 /* RESPONSIVE */
 @media (max-width: 767.98px) {
@@ -174,7 +155,7 @@ img.mudah {
   border-radius: 10px;
   margin-top: -20px;
 }
-.row-sect2 {
+.mt-2 {
   margin-left: 40px;
   font-size: 14px;
 }
