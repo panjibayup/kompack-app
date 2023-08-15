@@ -110,7 +110,7 @@
     <div class="mudah">
       <div class="row">
         <div class="col col-easy">
-          <div data-aos="fade-right" class="easy-case-title mb-3 mt-5">
+          <div class="easy-case-title mb-3 mt-5">
             <h2 class="easy-title">
               Jadi Mitra Gudang <br />
               Kompack itu

@@ -12,5 +12,11 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
     "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5",
+    "swiper": "^10.1.0",
+    "vue-carousel": "^0.18.0",
+    "vue-slick-carousel": "^1.0.6"
   }
 }
