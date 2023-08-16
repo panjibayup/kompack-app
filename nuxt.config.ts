@@ -28,6 +28,6 @@ export default {
         crossorigin: "anonymous",
       },
     ],
+    plugins: [{ src: "../plugins/aos", ssr: false, mode: "client" }],
   },
-  // plugins: [{ src: "~/plugins/aos", ssr: false, mode: "client" }],
 };

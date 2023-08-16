@@ -9,6 +9,6 @@
   <MapPage />
   <GudangPage />
   <!-- <AlurPage /> -->
-  <!-- <WaPage /> -->
+  <WaPage />
   <FooterPage />
 </template>

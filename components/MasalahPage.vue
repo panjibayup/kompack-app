@@ -40,7 +40,7 @@
     <div class="head-sect3 mt-2">
       <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
-    <div class="row justify-content-center row-sect3 mt-5">
+    <div class="row justify-content-center d-none d-sm-block row-sect3 mt-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
         <div class="conten-sect3 pt-3 pb-3">
           <img class="image-sect3" src="../assets/practis.584a411.svg" alt="praktis" />
@@ -60,6 +60,35 @@
           <img class="ms-4 mt-4" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
           <h4 class="pt-3">Mudah</h4>
           <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center d-block d-sm-none row-sect3 mt-5">
+      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
+        <div class="card rounded-5 shadow border-none px-3">
+          <div class="card-body justify-content-center">
+            <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/practis.584a411.svg" alt="praktis" />
+            <h4 class="text-center">Praktis</h4>
+            <p class="text-center">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
+        <div class="card rounded-5 shadow border-none px-3">
+          <div class="card-body justify-content-center">
+            <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/hemat.b3a6bae.svg" alt="praktis" />
+            <h4 class="text-center">Hemat</h4>
+            <p class="text-center">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
+        <div class="card rounded-5 shadow border-none px-3">
+          <div class="card-body justify-content-center">
+            <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/mudah.4bdacb6.svg" alt="praktis" />
+            <h4 class="text-center">Mudah</h4>
+            <p class="text-center">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
+          </div>
         </div>
       </div>
     </div>
@@ -98,6 +127,15 @@
   min-height: 230px;
   box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
 }
+.mobile {
+  cursor: pointer;
+  margin: 2rem;
+  border-radius: 30px;
+  border: #fff solid 1px;
+  height: 150px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
+}
 .conten-sect3:hover {
   background-color: #4285f4;
   color: #fff;
@@ -133,6 +171,9 @@ h4.pt-3 {
 }
 img.image-sect3 {
   margin-left: 50px;
+}
+p.text-center {
+  font-size: 14px;
 }
 
 /* RESPONSIVE */
