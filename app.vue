@@ -30,10 +30,10 @@ useHead({
       rel: "stylesheet",
       href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css",
     },
-    {
-      rel: "stylesheet",
-      href: "https://unpkg.com/aos@2.3.1/dist/aos.css",
-    },
+    // {
+    //   rel: "stylesheet",
+    //   href: "https://unpkg.com/aos@2.3.1/dist/aos.css",
+    // },
   ],
   script: [
     {
@@ -41,9 +41,9 @@ useHead({
       integrity: "sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa",
       crossorigin: "anonymous",
     },
-    {
-      src: "https://unpkg.com/aos@2.3.1/dist/aos.js",
-    },
+    // {
+    //   src: "https://unpkg.com/aos@2.3.1/dist/aos.js",
+    // },
   ],
 });
 </script>
