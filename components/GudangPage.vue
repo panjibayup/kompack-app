@@ -311,8 +311,8 @@ swiper-slide {
   height: 50px;
 }
 .card {
-  width: 80%;
-  height: 300px;
+  width: 85%;
+  height: 330px;
   font-size: 13px;
   cursor: pointer;
 }

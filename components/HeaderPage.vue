@@ -44,6 +44,9 @@
   margin-left: 30px;
   font-family: "Poppins";
 }
+a.nav-link:focus {
+  color: #4285f4;
+}
 a.nav-link:hover {
   color: #4285f4;
   border-bottom: 2px solid #4285f4;

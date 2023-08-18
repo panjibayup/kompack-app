@@ -1,5 +1,5 @@
 <template>
-  <section id="section-2">
+  <section id="section-2" class="mt-5">
     <div class="row justify-content-center">
       <div class="container">
         <div class="row sect-2">
@@ -10,20 +10,20 @@
             </h2>
           </div>
 
-          <div class="row justify-content-center mt-5 justify-content-center">
-            <div class="col-lg-5 col-md-6 conten-sect2">
+          <div class="row justify-content-center mt-5 px-4 justify-content-center">
+            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2">
               <div class="row mt-2 justify-content-center">
-                <div class="col-lg-2 col-md-2 icon-sect2">
+                <div class="col-lg-2 col-md-2 me-4">
                   <img src="../assets/home.0f137a7.png" alt="rumah" />
                 </div>
-                <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
+                <div class="col-lg-8 col-md-9 col-10 subhead-sect2">
                   <p>Keterbatasan tempat dan biaya dalam menyediakan fasilitas gudang sendiri</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-6 conten-sect2">
+            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2">
               <div class="row mt-2 justify-content-center">
-                <div class="col-lg-2 col-md-2 icon-sect2">
+                <div class="col-lg-2 col-md-2 me-4">
                   <img src="../assets/jam.60da5ff.png" alt="jam" />
                 </div>
                 <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
@@ -40,23 +40,23 @@
     <div class="head-sect3 mt-2">
       <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
-    <div class="row justify-content-center d-none d-sm-block row-sect3 mt-5">
+    <div class="row justify-content-center d-none d-sm-flex row-sect3 mt-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
-        <div class="conten-sect3 pt-3 pb-3">
-          <img class="image-sect3" src="../assets/practis.584a411.svg" alt="praktis" />
+        <div class="conten-sect3 py-3">
+          <img class="image-sect3 ms-4" src="../assets/practis.584a411.svg" alt="praktis" />
           <h4 class="pt-3">Praktis</h4>
           <p class="desc-sect3">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
-        <div class="conten-sect3 pt-3 pb-3">
-          <img class="image-sect3" src="../assets/hemat.b3a6bae.svg" alt="hemat" />
+        <div class="conten-sect3 py-3">
+          <img class="image-sect3 ms-4" src="../assets/hemat.b3a6bae.svg" alt="hemat" />
           <h4 class="pt-3 judul-sect3">Hemat</h4>
           <p class="desc-sect3">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12">
-        <div class="conten-sect3 pt-3 pb-3">
+        <div class="conten-sect3 py-3">
           <img class="ms-4 mt-4" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
           <h4 class="pt-3">Mudah</h4>
           <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
@@ -106,7 +106,7 @@
   border-bottom: 1px solid #4285f4;
 }
 .conten-sect2 {
-  width: 440px;
+  width: 400px;
   height: 129px;
 }
 .conten-sect2:hover {
@@ -119,14 +119,7 @@
   text-align: center;
   margin-top: 120px;
 }
-.conten-sect3 {
-  cursor: pointer;
-  margin: 2rem;
-  border-radius: 30px;
-  border: #fff solid 1px;
-  min-height: 230px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
-}
+
 .mobile {
   cursor: pointer;
   margin: 2rem;
@@ -136,30 +129,34 @@
 
   box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
 }
-.conten-sect3:hover {
-  background-color: #4285f4;
-  color: #fff;
-  cursor: pointer;
-  margin: 2rem;
-  border-radius: 30px;
-  border: #fff solid 1px;
-  min-height: 230px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
-}
 
 h4.pt-3 {
   text-align: center;
+}
+.conten-sect3 {
+  cursor: pointer;
+  margin: 2rem;
+  border-radius: 30px;
+  border: #ffffff solid 1px;
+  min-height: 230px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
 }
 .desc-sect3 {
   display: none;
   font-size: 16px;
   font-weight: 400;
   padding: 10px;
-
-  text-align: center;
+  font-family: poppins;
 }
 
-.content-sect3:hover .desc-sect3 {
+.conten-sect3:hover {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 25) 1px 1px 4px 0px;
+  background-color: rgba(66, 133, 244, 1);
+  color: #ffffff;
+}
+
+.conten-sect3:hover .desc-sect3 {
   display: block;
   color: #ffffff;
   font-size: 14px;
@@ -169,9 +166,7 @@ h4.pt-3 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-img.image-sect3 {
-  margin-left: 50px;
-}
+
 p.text-center {
   font-size: 14px;
 }
@@ -187,14 +182,18 @@ p.text-center {
   margin-top: -60px;
   margin-left: 20px;
 }
+p {
+  font-size: 13px;
+}
 .head-conten {
   margin: auto;
   padding: 30px;
 }
 .conten-sect2 {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-radius: 10px;
   margin-top: -20px;
+  width: 350px;
 }
 .mt-2 {
   margin-left: 40px;

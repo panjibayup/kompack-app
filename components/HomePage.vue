@@ -2,7 +2,7 @@
   <section id="section-1">
     <div class="container">
       <div class="row mt-5">
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 mx-auto d-block d-sm-none ml-5">
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 mx-auto d-flex d-sm-none ml-5">
           <div class="mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="img-fluid" />
           </div>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 ms-5 mb-5 d-none d-sm-block ml-5">
+        <div class="col-xl-5 col-lg-5 col-md-6 ms-5 mb-5 d-none d-sm-flex ml-5">
           <div class="mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="ms-5 img-fluid" />
           </div>
@@ -41,6 +41,11 @@
 
   .ket-komponen {
     font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  #section-1 {
+    margin-top: 100px;
   }
 }
 </style>

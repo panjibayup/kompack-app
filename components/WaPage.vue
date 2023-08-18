@@ -21,6 +21,9 @@
 </template>
 
 <style scoped>
+.my-5 {
+  margin: 100px auto;
+}
 .text-center {
   font-weight: 500;
 }
