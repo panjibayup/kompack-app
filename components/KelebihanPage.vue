@@ -55,7 +55,7 @@
     </div>
   </section>
 
-  <section id="section-5" data-aos="fade-up">
+  <section id="section-5" data-aos="fade-up" data-aos-duration="1000">
     <div class="container colom">
       <div class="row justify-content-center row-sect5">
         <div class="col-xl-6 col-lg-6 col-md-5 col-12 col1-sect5">

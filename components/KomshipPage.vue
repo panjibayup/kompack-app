@@ -71,46 +71,46 @@
         </div>
       </section>
       <div class="benefit-table-mobile">
-        <div class="mt-4 mb-2" style="text-align: center">
+        <div class="mt-4 mb-2 col-12 text-center" data-aos="fade-down" data-aos-duration="1000">
           <button class="btn btn-sm btn-menu" @click="benefitJne()">JNE</button>
           <button class="btn btn-sm btn-menu" @click="benefitSicepat()">SiCepat</button>
           <button class="btn btn-sm btn-menu" @click="benefitId()">IDExpress</button>
           <button class="btn btn-sm btn-menu" @click="benefitSap()">SAP</button>
         </div>
         <div v-if="benefitJneChecked === true" class="jne">
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead"><img src="../assets/logo_jne.04e5ed3.png" class="logo" alt="JNE" /></div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">Reg 25%</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
         </div>
         <div v-else-if="benefitSicepatChecked === true" class="sicepat">
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead"><img src="../assets/logo_sicepat.22fcee9.png" class="logo" alt="Sicepat" /></div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">
               <li class="list-benefit">Reg 30%</li>
               <li class="list-benefit">Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)</li>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
@@ -127,42 +127,42 @@
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead"><img src="../assets/logo_idexpress.9daac82.png" class="logo" alt="logo" /></div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">
               <li class="list-benefit">Reg 25%</li>
               <li class="list-benefit">"(>1/2 kg)1/2 Kg bayar 1/2-nya* +diskon 15%"</li>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
         </div>
         <div v-else class="sap">
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead"><img src="../assets/logo_sap.2042681.png" class="logo" alt="" /></div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">Reg 35%</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
@@ -214,8 +214,10 @@
 </template>
 
 <script>
+import aosMixin from "../mixins/aos";
 export default {
   name: "BenefitPage",
+  mixins: [aosMixin],
   components: {},
 
   data() {

@@ -79,7 +79,7 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="container d-block d-sm-none ps-5">
+    <div class="container d-block d-sm-none ps-5" data-aos="fade-left" data-aos-duration="1000">
       <swiper :slides-per-view="1" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">

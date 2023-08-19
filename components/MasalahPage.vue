@@ -11,7 +11,7 @@
           </div>
 
           <div class="row justify-content-center mt-5 px-4 justify-content-center">
-            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2">
+            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2" data-aos="fade-right" data-aos-duration="1000">
               <div class="row mt-2 justify-content-center">
                 <div class="col-lg-2 col-md-2 me-2">
                   <img src="../assets/home.0f137a7.png" alt="rumah" />
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2">
+            <div class="col-lg-5 col-md-6 ms-4 pt-3 conten-sect2" data-aos="fade-left" data-aos-duration="1000">
               <div class="row mt-2 justify-content-center">
                 <div class="col-lg-2 col-md-2 me-2">
                   <img src="../assets/jam.60da5ff.png" alt="jam" />
@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="row justify-content-center d-block d-sm-none row-sect3 mt-5">
-      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
+      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="card rounded-5 shadow border-none px-3">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/practis.584a411.svg" alt="praktis" />
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
+      <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5" data-aos="fade-up-left" data-aos-duration="1000">
         <div class="card rounded-5 shadow border-none px-3">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/hemat.b3a6bae.svg" alt="praktis" />
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
-        <div class="card rounded-5 shadow border-none px-3">
+        <div class="card rounded-5 shadow border-none px-3" data-aos="fade-up-right" data-aos-duration="1000">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/mudah.4bdacb6.svg" alt="praktis" />
             <h4 class="text-center">Mudah</h4>

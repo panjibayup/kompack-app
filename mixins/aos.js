@@ -1,4 +1,4 @@
-// plugins/aos.js
+//mixins/aos.js
 import AOS from "aos";
 import "aos/dist/aos.css";
 
