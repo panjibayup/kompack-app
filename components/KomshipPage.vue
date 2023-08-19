@@ -8,7 +8,7 @@
       <div class="head-mobile d-block d-sm-none text-center">
         <h2 class="fs-5">Makin hemat atur pengiriman paket orderan dengan <img src="../assets/komship-logo-new.9c1d2ff.svg" alt="komship" /></h2>
       </div>
-      <section id="benefitPage">
+      <section id="benefitPage" data-aos="fade-up" data-aos-duration="1000">
         <div class="container benefit-container">
           <div class="card benefit-head">
             <div class="card-body">
@@ -26,11 +26,11 @@
               </div>
             </div>
           </div>
-          <div class="head-2 text-center">
+          <div class="head-2 text-center" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="fw-bold d-none d-sm-block">Rekomendasi untuk kamu</h2>
           </div>
           <div class="benefit-table-desktop">
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
               <div class="col-md-2 p-4 head fw-bold">Benefit</div>
               <div class="col-md-2 p-4 subhead"><img src="../assets/logo_jne.04e5ed3.png" alt="" /></div>
               <div class="col-md-3 p-4 subhead"><img src="../assets/logo_sicepat.22fcee9.png" alt="" /></div>
@@ -38,7 +38,7 @@
               <div class="col-md-2 p-4 subhead"><img src="../assets/logo_sap.2042681.png" alt="" /></div>
             </div>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
               <div class="col-md-2 p-4 head fw-bold">Diskon Ongkir</div>
               <div class="col-md-2 p-4">Reg 25%</div>
               <div class="col-md-3 p-4">
@@ -52,7 +52,7 @@
               <div class="col-md-2 p-4">35%</div>
             </div>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
               <div class="col-md-2 p-4 head fw-bold">Biaya Ongkir</div>
               <div class="col-md-2 p-4">2.8%(PPN ditanggung Komship)</div>
               <div class="col-md-3 p-4">2.8%(PPN ditanggung Komship)</div>
@@ -60,7 +60,7 @@
               <div class="col-md-2 p-4">2.8%(PPN ditanggung Komship)</div>
             </div>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
               <div class="col-md-2 p-4 head fw-bold">Diskon Biaya Return</div>
               <div class="col-md-2 p-4 second">Gratis se-lndonesia*</div>
               <div class="col-md-3 p-4 second">Gratis se-lndonesia*</div>
@@ -171,7 +171,7 @@
       <section class="recomend mt-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-5 col-md-5">
+            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/jne-counter.png" alt="foto" />
@@ -180,7 +180,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5 col-sm-10">
+            <div class="col-lg-5 col-md-5 col-sm-10" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sicepat-counter.png" alt="foto" />
@@ -189,7 +189,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5">
+            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/idexpress-counter.png" alt="foto" />
@@ -198,7 +198,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5">
+            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sap-counter.png" alt="foto" />

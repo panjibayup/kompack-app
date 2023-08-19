@@ -7,7 +7,7 @@
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="img-fluid" />
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 col-10 ms-md-5 align-self-center">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-10 ms-md-5 align-self-center" data-aos="fade-right" data-aos-duration="1000">
           <div class="">
             <h2 class="fw-bold">
               <span class="text-primary">Jasa Pergudangan</span><br />
@@ -16,12 +16,12 @@
             <p class="ket-komponen">Kompack adalah solusi untuk masalah pergudangan, management, dan pengemasan barang</p>
             <div class="button-komponen">
               <a href="#section-2">
-                <button type="button" class="btn btn-1 rounded-5 btn-primary py-3 px-5 fw-semibold">Pelajari lebih lanjut</button>
+                <button type="button" class="btn btn-1 rounded-5 btn-primary py-3 px-3 fw-semibold">Pelajari lebih lanjut</button>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 ms-5 mb-5 d-none d-sm-flex ml-5">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 ms-5 mb-5 d-none d-sm-flex ml-5" data-aos="fade-left" data-aos-duration="1000">
           <div class="mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="ms-5 img-fluid" />
           </div>

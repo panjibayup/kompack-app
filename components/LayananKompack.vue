@@ -1,5 +1,5 @@
 <template>
-  <section id="layanan" class="layanan">
+  <section id="layanan" class="layanan" data-aos="fade-left" data-aos-duration="1000">
     <div>
       <div id="accordionFlushExample" class="row accordion accordion-flush justify-content-between">
         <div class="col-xl-6 col-lg-6 col-md-6 col-12 p-4 mobile-layanan">
@@ -52,6 +52,14 @@
     </div>
   </section>
 </template>
+
+<script>
+import aosMixin from "../mixins/aos";
+export default {
+  name: "PageIndex",
+  mixins: [aosMixin],
+};
+</script>
 
 <style scoped>
 .layanan {

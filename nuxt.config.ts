@@ -20,6 +20,10 @@ export default {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap",
       },
+      // {
+      //   rel: "stylesheet",
+      //   href: "https://unpkg.com/aos@2.3.1/dist/aos.css",
+      // },
     ],
     script: [
       {
@@ -27,7 +31,9 @@ export default {
         integrity: "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN",
         crossorigin: "anonymous",
       },
+      // {
+      //   src: "https://unpkg.com/aos@2.3.1/dist/aos.js",
+      // },
     ],
-    // plugins: [{ src: "../plugins/aos", ssr: false, mode: "client" }],
   },
 };

@@ -1,9 +1,9 @@
 <template>
   <section id="section-4">
     <div class="head-sect-4 h4 mb-5">
-      <h4 class="text-center fw-bold">Apa kelebihan Kompack?</h4>
+      <h4 class="text-center fw-bold" data-aos="fade-up" data-aos-duration="1000">Apa kelebihan Kompack?</h4>
     </div>
-    <div class="container section-4">
+    <div class="container section-4" data-aos="zoom-in" data-aos-duration="1000">
       <div class="row justify-content-between row-sect-4">
         <div class="col-xl-4 col-lg-4 col-md-5 col-12 mt-2">
           <div class="row justify-content-center">
@@ -55,7 +55,7 @@
     </div>
   </section>
 
-  <section id="section-5">
+  <section id="section-5" data-aos="fade-up">
     <div class="container colom">
       <div class="row justify-content-center row-sect5">
         <div class="col-xl-6 col-lg-6 col-md-5 col-12 col1-sect5">
@@ -81,6 +81,11 @@
 <style scoped>
 #section-4 {
   background-color: #edf8ff;
+  /* background-image: url("../assets/kelebihan-bg.effd3747.png");
+  background-position: 50%;
+  background-position-x: 18vw;
+  background-position-y: 5vw;
+  background-repeat: no-repeat; */
   padding-top: 5vh;
   padding-bottom: 0;
   margin-top: 60px;
