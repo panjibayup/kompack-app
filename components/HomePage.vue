@@ -7,7 +7,7 @@
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="img-fluid" />
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 col-10 ms-md-5 align-self-center" data-aos="fade-right" data-aos-duration="1000">
+        <div class="col-xl-5 col-lg-5 col-md-6 ms-md-5 align-self-center" data-aos="fade-right" data-aos-duration="1000">
           <div class="">
             <h2 class="fw-bold">
               <span class="text-primary">Jasa Pergudangan</span><br />
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 ms-5 mb-5 d-none d-sm-flex ml-5" data-aos="fade-left" data-aos-duration="1000">
+        <div class="col-xl-5 col-lg-5 col-md-6 mb-5 d-none d-sm-flex ml-5" data-aos="fade-left" data-aos-duration="1000">
           <div class="mt-5">
             <img src="../assets/hero-new.4b7995f.svg" alt="hero" class="ms-5 img-fluid" />
           </div>
@@ -33,7 +33,7 @@
 
 <style scoped>
 /* RESPONSIVE */
-@media (max-width: 767.98px) {
+@media (min-width: 220px) and (max-width: 767.98px) {
   .align-self-center {
     text-align: center;
     margin: auto;
@@ -43,9 +43,17 @@
     font-size: 14px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 767.99px) and (max-width: 992px) {
   #section-1 {
-    margin-top: 100px;
+    margin-top: 150px;
+  }
+  .d-none {
+    margin-top: -330px;
+    margin-left: 320px;
+    width: 45%;
+  }
+  img .img-fluid {
+    margin-left: 500px;
   }
 }
 </style>

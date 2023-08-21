@@ -52,4 +52,10 @@ a.nav-link:hover {
   border-bottom: 2px solid #4285f4;
   border-bottom-width: 80%;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
 </style>

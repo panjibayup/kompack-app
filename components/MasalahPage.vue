@@ -40,7 +40,7 @@
     <div class="head-sect3 mt-2" data-aos="fade-down" data-aos-duration="1000">
       <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
-    <div class="row justify-content-center d-none d-sm-flex row-sect3 mt-5">
+    <div class="row justify-content-center d-none d-sm-flex row-sect3 mt-5 pe-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
           <img class="image-sect3 ms-4" src="../assets/practis.584a411.svg" alt="praktis" />
@@ -57,7 +57,7 @@
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-left" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
-          <img class="ms-4 mt-4" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
+          <img class="ms-4 mt-4 mudah" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
           <h4 class="pt-3">Mudah</h4>
           <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
         </div>
@@ -98,7 +98,7 @@
 <script>
 import aosMixin from "../mixins/aos";
 export default {
-  name: "PageIndex",
+  name: "MasalahPage",
   mixins: [aosMixin],
 };
 </script>
@@ -325,10 +325,23 @@ img.mudah {
     margin-left: 70px;
   }
 }
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .conten-sect2 {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0 #000;
+    font-size: 12px;
+    margin-top: 2rem;
+    width: 320px;
+    height: 110px;
+  }
+}
 
-@media (min-width: 767.99px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .subhead-sect2 {
     margin-top: 0;
+  }
+  .image-sect3 {
+    width: 75%;
   }
 }
 </style>

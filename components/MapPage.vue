@@ -9,7 +9,7 @@
           Kompack bekerja sama dengan pemilik gudang yang tersebar di seluruh Indonesia untuk menjadi Mitra Gudang Kompack dengan tujuan memberdayakan bisnis pergudangan di Indonesia dengan prinsip profesional dan menguntungkan.
         </p>
       </div>
-      <div class="text-center">
+      <div class="text-center" data-aos="zoom-in" data-aos-duration="700">
         <img class="img-map" src="../assets/map.6cc792c.svg" alt="map" />
       </div>
     </div>

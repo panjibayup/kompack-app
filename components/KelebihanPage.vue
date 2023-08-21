@@ -58,13 +58,13 @@
   <section id="section-5" data-aos="fade-up" data-aos-duration="1000">
     <div class="container colom">
       <div class="row justify-content-center row-sect5">
-        <div class="col-xl-6 col-lg-6 col-md-5 col-12 col1-sect5">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 col1-sect5">
           <div class="head-sect5">
             <h2>Pakai Kompack Lebih</h2>
             <h2>Hemat dan Terjangkau</h2>
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-7 col-12 col2-sect5">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 col2-sect5">
           <div class="subhead-sect5">
             <p>
               Nikmati layanan Kompack dengan biaya mulai dari
@@ -81,20 +81,20 @@
 <style scoped>
 #section-4 {
   background-color: #edf8ff;
-  /* background-image: url("../assets/kelebihan-bg.effd3747.png");
+  background-image: url("../assets/kelebihan-bg.effd3747.png");
   background-position: 50%;
   background-position-x: 18vw;
   background-position-y: 5vw;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   padding-top: 5vh;
   padding-bottom: 0;
   margin-top: 60px;
   margin-bottom: 100px;
   height: 450px;
 }
-/* .row-sect-4 {
-  background-image: url(../assets/Group-38412.png);
-} */
+.row-sect-4 {
+  margin-top: 60px;
+}
 .row-sect5 {
   justify-content: center;
   background-color: #4285f4;
@@ -164,11 +164,36 @@
   }
   #section-4 {
     background-color: #edf8ff;
+    background-image: none;
     padding-top: 5vh;
     padding-bottom: 0;
     margin-top: 60px;
     margin-bottom: 100px;
+    height: 700px;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  #section-4 {
     height: 600px;
+    background-position: 50%;
+    background-size: 50%;
+    background-position-x: 18vw;
+    background-position-y: 25vw;
+  }
+  .row-sect5 {
+    justify-content: left;
+    margin-left: 35px;
+    width: 90%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #section-4 {
+    height: 500px;
+    background-position: 50%;
+    background-size: 40%;
+    background-position-x: 25vw;
+    background-position-y: 14vw;
   }
 }
 </style>

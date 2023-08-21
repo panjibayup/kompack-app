@@ -1,7 +1,7 @@
 <template>
   <section class="my-5">
     <h3 class="text-center fw-semibold mb-5">Alur Partner Kompack</h3>
-    <div class="container d-none d-lg-block ps-5" data-aos="fade-left" data-aos-duration="700">
+    <div class="container d-none d-xl-block ps-5" data-aos="fade-left" data-aos-duration="700">
       <swiper :slides-per-view="4" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
@@ -40,7 +40,46 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="container d-none d-sm-block d-lg-none ps-5">
+    <div class="container d-none d-lg-block d-xl-none ps-5" data-aos="fade-left" data-aos-duration="700">
+      <swiper :slides-per-view="3" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-1.809b27c.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-2.c785efd.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-3.f8539c8.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-4.478b997.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-5.bfdacda.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper">
+            <img src="../assets/alur-6.59982ea.png" alt="" />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="img-wrapper ps-2">
+            <img src="../assets/alur-7.dfba2ac.png" alt="" />
+          </div>
+        </swiper-slide>
+      </swiper>
+    </div>
+    <div class="container d-none d-sm-block d-lg-none ps-5" data-aos="fade-left" data-aos-duration="700">
       <swiper :slides-per-view="2" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
@@ -157,7 +196,7 @@ export default {
 swiper-slide {
   margin-left: 20px;
 }
-.img-wrapper {
+.container {
   background-image: url(../assets/line-new.svg);
   background-repeat: no-repeat;
   background-position: center;

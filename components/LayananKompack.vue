@@ -43,7 +43,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 p-4 img-layanan" style="width: 45%; padding-top: 10vh">
+        <div class="col-xl-6 col-lg-6 col-md-6 d-none d-md-block p-4 img-layanan" style="width: 45%; padding-top: 10vh">
           <img id="flush-collapseOne" src="../assets/penyimpanan.8734f2a.png" alt="layanan" class="accordion-collapse collapse" />
           <img id="flush-collapseTwo" src="../assets/stock.e0c69b6.png" alt="stock" class="accordion-collapse collapse" />
           <img id="flush-collapseThree" src="../assets/packing.1e23c4f.png" alt="packing" class="accordion-collapse collapse" />
@@ -91,6 +91,7 @@ export default {
   color: #fff;
   border-radius: 20px;
   margin: 10px 0 10px 0;
+  border: none;
 }
 .custom__class {
   background: 0 0;
@@ -111,9 +112,10 @@ export default {
 .img-layanan img {
   max-width: 90%;
 }
-@media (max-width: 767.98px) {
-  .img-layanan img {
-    display: none;
+@media (max-width: 991.98px) {
+  .content-layanan {
+    font-style: 11px;
+    height: 100px;
   }
 }
 </style>

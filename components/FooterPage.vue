@@ -77,10 +77,18 @@
               <a href="https://www.instagram.com/kompackid/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/ig.svg" height="24px" width="auto" alt="" />
               </a>
-              <a href="https://www.facebook.com/kompackid" target="_blank" rel="noopener noreferrer"><img src="../assets/fb.svg" height="24px" width="auto" alt="" /></a>
-              <a href="https://www.linkedin.com/company/komerceid/mycompany/verification/" target="_blank" rel="noopener noreferrer"><img src="../assets/in.svg" height="24px" width="auto" alt="" /></a>
-              <a href="https://t.me/komerce" target="_blank" rel="noopener noreferrer"><img src="../assets/tele.svg" height="24px" width="auto" alt="" /></a>
-              <a href="https://www.youtube.com/@komerceid" target="_blank" rel="noopener noreferrer"><img src="../assets/yt.svg" height="24px" width="auto" alt="" /></a>
+              <a href="https://www.facebook.com/kompackid" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/fb.svg" height="24px" width="auto" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/company/komerceid/mycompany/verification/" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/in.svg" height="24px" width="auto" alt="" />
+              </a>
+              <a href="https://t.me/komerce" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tele.svg" height="24px" width="auto" alt="" />
+              </a>
+              <a href="https://www.youtube.com/@komerceid" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/yt.svg" height="24px" width="auto" alt="" />
+              </a>
             </div>
             <div class="footer-title">Partner Kolaborasi</div>
             <div class="row mt-3">
@@ -136,9 +144,9 @@ footer {
   width: 40px;
 }
 
-@media (max-width: 540px) {
-  img.profile-image {
-    width: 135px;
+@media (max-width: 991.98px) {
+  .col-partner img {
+    margin-left: -8px;
   }
 }
 </style>

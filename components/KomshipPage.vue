@@ -29,7 +29,7 @@
           <div class="head-2 text-center" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="fw-bold d-none d-sm-block">Rekomendasi untuk kamu</h2>
           </div>
-          <div class="benefit-table-desktop">
+          <div class="benefit-table-desktop d-none d-md-block">
             <div class="row" data-aos="fade-right" data-aos-duration="1000">
               <div class="col-md-2 p-4 head fw-bold">Benefit</div>
               <div class="col-md-2 p-4 subhead"><img src="../assets/logo_jne.04e5ed3.png" alt="" /></div>
@@ -70,7 +70,7 @@
           </div>
         </div>
       </section>
-      <div class="benefit-table-mobile">
+      <div class="benefit-table-mobile d-block d-md-none d-lg-none">
         <div class="mt-4 mb-2 col-12 text-center" data-aos="fade-down" data-aos-duration="1000">
           <button class="btn btn-sm btn-menu" @click="benefitJne()">JNE</button>
           <button class="btn btn-sm btn-menu" @click="benefitSicepat()">SiCepat</button>
@@ -171,7 +171,7 @@
       <section class="recomend mt-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/jne-counter.png" alt="foto" />
@@ -180,7 +180,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5 col-sm-10" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sicepat-counter.png" alt="foto" />
@@ -189,7 +189,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/idexpress-counter.png" alt="foto" />
@@ -198,7 +198,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sap-counter.png" alt="foto" />
@@ -430,9 +430,39 @@ img.logo {
     margin-top: 50px;
   }
 }
-@media (min-width: 767.98px) {
-  .benefit-table-mobile {
-    display: none;
+@media (min-width: 767.98px) and (max-width: 992px) {
+  .komship {
+    padding: 0 40px;
+  }
+  .benefit-head {
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    margin: 50px auto;
+  }
+  .justify-content-between {
+    margin-top: -40px;
+  }
+  .benefit-table-desktop .head {
+    font-size: 16px;
+  }
+
+  .benefit-table-desktop .row {
+    width: 100%;
+    font-size: 12px;
+  }
+  .subhead img {
+    width: 60px;
+    height: 25px;
+  }
+}
+@media (min-width: 992.2px) and (max-width: 1200px) {
+  .benefit-table-desktop .row {
+    width: 100%;
+    font-size: 12px;
   }
 }
 
