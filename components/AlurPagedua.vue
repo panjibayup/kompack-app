@@ -1,7 +1,7 @@
 <template>
   <section class="my-5">
     <h3 class="text-center fw-semibold mb-5">Alur Partner Kompack</h3>
-    <div class="container d-none d-xl-block ps-5" data-aos="fade-left" data-aos-duration="700">
+    <div class="container d-none d-xl-block" data-aos="fade-left" data-aos-duration="700">
       <swiper :slides-per-view="4" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
@@ -40,7 +40,7 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="container d-none d-lg-block d-xl-none ps-5" data-aos="fade-left" data-aos-duration="700">
+    <div class="container d-none d-lg-block d-xl-none" data-aos="fade-left" data-aos-duration="700">
       <swiper :slides-per-view="3" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
@@ -79,7 +79,7 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="container d-none d-sm-block d-lg-none ps-5" data-aos="fade-left" data-aos-duration="700">
+    <div class="container d-none d-sm-block d-lg-none" data-aos="fade-left" data-aos-duration="700">
       <swiper :slides-per-view="2" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
@@ -118,8 +118,8 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div class="container d-block d-sm-none ps-5" data-aos="fade-left" data-aos-duration="1000">
-      <swiper :slides-per-view="1" :space-between="0" @swiper="onSwiper" @slideChange="onSlideChange">
+    <div class="container d-block d-sm-none" data-aos="fade-left" data-aos-duration="1000">
+      <swiper :slides-per-view="1" :space-between="25" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <div class="img-wrapper">
             <img src="../assets/alur-1.809b27c.png" alt="" />
@@ -193,12 +193,13 @@ export default {
 
 <style scoped>
 /* alur */
-swiper-slide {
-  margin-left: 20px;
-}
 .container {
   background-image: url(../assets/line-new.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
 }
 </style>

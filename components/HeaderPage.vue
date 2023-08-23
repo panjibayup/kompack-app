@@ -11,19 +11,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto justify-content-beetwen">
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/">Beranda</nuxt-link>
+              <nuxt-link class="nav-link animation" to="/">Beranda</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/about">Tentang Kami</nuxt-link>
+              <nuxt-link class="nav-link animation" to="/about">Tentang Kami</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/mitra">Mitra Gudang</nuxt-link>
+              <nuxt-link class="nav-link animation" to="/mitra">Mitra Gudang</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/syarat">Syarat dan Ketentuan</nuxt-link>
+              <nuxt-link class="nav-link animation" to="/syarat">Syarat dan Ketentuan</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/privasi">Kebijakan Privasi</nuxt-link>
+              <nuxt-link class="nav-link animation" to="/privasi">Kebijakan Privasi</nuxt-link>
             </li>
           </ul>
         </div>
@@ -44,13 +44,35 @@
   margin-left: 30px;
   font-family: "Poppins";
 }
-a.nav-link:focus {
-  color: #4285f4;
+.animation {
+  display: inline-block;
+  position: relative;
 }
-a.nav-link:hover {
-  color: #4285f4;
-  border-bottom: 2px solid #4285f4;
-  border-bottom-width: 80%;
+
+a {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #4285f4 !important;
+}
+
+.animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4285f4;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

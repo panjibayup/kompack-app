@@ -171,7 +171,7 @@
       <section class="recomend mt-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/jne-counter.png" alt="foto" />
@@ -180,7 +180,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sicepat-counter.png" alt="foto" />
@@ -189,7 +189,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/idexpress-counter.png" alt="foto" />
@@ -198,7 +198,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-6" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-lg-5 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="cards my-2">
                 <div class="image">
                   <img src="../assets/sap-counter.png" alt="foto" />
