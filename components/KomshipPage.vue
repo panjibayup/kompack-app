@@ -1,7 +1,7 @@
 <template>
   <div class="komship">
     <section id="section-komship" class="container section-komship">
-      <div class="head d-none d-sm-block text-center">
+      <div class="head d-none d-sm-block text-center justify-content-center">
         <h2>Makin hemat atur pengiriman</h2>
         <h2>paket orderan dengan <img src="../assets/komship-logo-new.9c1d2ff.svg" alt="komship" /></h2>
       </div>
@@ -10,7 +10,7 @@
       </div>
       <section id="benefitPage" data-aos="fade-up" data-aos-duration="1000">
         <div class="container benefit-container">
-          <div class="card benefit-head">
+          <div class="card position-relative bg-white p-1 rounded-4 benefit-head">
             <div class="card-body">
               <div class="row justify-content-center">
                 <div class="col-lg-5 content text-start">
@@ -288,12 +288,8 @@ export default {
   padding: 0 15px;
 }
 .benefit-head {
-  position: relative;
   width: 85%;
-  padding: 10px;
-  border-radius: 20px;
   border: none;
-  background-color: #ffffff;
   margin: 50px auto;
 }
 .card-body {
@@ -372,6 +368,9 @@ img.logo {
   padding: 4px 12px;
   font-size: 16px;
   font-weight: 500;
+}
+.recomend {
+  overflow-y: hidden;
 }
 
 /* Responsive */

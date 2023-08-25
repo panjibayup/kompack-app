@@ -1,8 +1,8 @@
 <template>
-  <section id="map" class="map">
-    <div class="container">
+  <section id="map" class="map py-4">
+    <div class="container px-3">
       <div class="title-map text-center">
-        <h2 class="text-map">Lokasi Gudang</h2>
+        <h2 class="text-map fs-2 fw-semibold pb-3">Lokasi Gudang</h2>
       </div>
       <div class="deskripsi">
         <p class="text-deskripsi text-center">
@@ -16,34 +16,13 @@
   </section>
 </template>
 <style scoped>
-.container {
-  padding: 0 50px;
-}
 .map {
   background-color: #dff3ff;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 img.img-map {
   width: 60%;
 }
-img.img-map:hover {
-  align-items: center;
-  cursor: pointer;
-  width: 90%;
-  height: 300px;
-  transition: height 0.3s ease;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  transition-property: height;
-}
-.text-map {
-  font-weight: 600;
-  line-height: 140%;
-  padding-bottom: 30px;
-  font-size: 28px;
-}
+
 .text-deskripsi {
   color: #626262;
   font-size: 16px;

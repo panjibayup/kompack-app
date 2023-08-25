@@ -57,9 +57,9 @@
 
   <section id="section-5" data-aos="fade-up" data-aos-duration="1000">
     <div class="container colom">
-      <div class="row justify-content-center row-sect5">
+      <div class="row justify-content-center p-1 row-sect5">
         <div class="col-xl-6 col-lg-6 col-md-6 col-12 col1-sect5">
-          <div class="head-sect5">
+          <div class="text-white fw-bold head-sect5">
             <h2>Pakai Kompack Lebih</h2>
             <h2>Hemat dan Terjangkau</h2>
           </div>
@@ -69,7 +69,7 @@
             <p>
               Nikmati layanan Kompack dengan biaya mulai dari
               <br />
-              <span class="bold-sect5">Rp.2000/ barang yang terjual</span>
+              <span class="fw-semibold fs-4">Rp.2000/ barang yang terjual</span>
             </p>
           </div>
         </div>
@@ -96,7 +96,6 @@
   margin-top: 60px;
 }
 .row-sect5 {
-  justify-content: center;
   background-color: #4285f4;
   width: 80%;
   min-height: 25vh;
@@ -105,7 +104,6 @@
   border-radius: 48px;
   margin-top: -200px;
   margin-left: 100px;
-  padding: 10px;
 }
 .colom {
   justify-content: center;
@@ -115,10 +113,7 @@
   border-right: solid 2px #fff;
   margin-top: 10px;
 }
-.head-sect5 {
-  color: #fff;
-  font-weight: 700;
-}
+
 .col2-sect5 {
   align-self: center;
 }
@@ -127,10 +122,6 @@
   color: #fff;
   padding-left: 10px;
   margin-top: 30px;
-}
-.bold-sect5 {
-  font-weight: 600;
-  font-size: 24px;
 }
 
 @media (max-width: 767.98px) {

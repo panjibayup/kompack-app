@@ -36,6 +36,9 @@
 * {
   font-family: "Poppins";
 }
+button.navbar-toggler {
+  color: #4285f4;
+}
 .navbar-brand img {
   width: 120px;
 }

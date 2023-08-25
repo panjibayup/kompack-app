@@ -121,37 +121,37 @@
     <div class="container d-block d-sm-none" data-aos="fade-left" data-aos-duration="1000">
       <swiper :slides-per-view="1" :space-between="25" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-1.809b27c.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-2.c785efd.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-3.f8539c8.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-4.478b997.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-5.bfdacda.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper">
+          <div class="d-flex justify-content-center">
             <img src="../assets/alur-6.59982ea.png" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="img-wrapper ps-2">
+          <div class="d-flex justify-content-center ps-2">
             <img src="../assets/alur-7.dfba2ac.png" alt="" />
           </div>
         </swiper-slide>
@@ -197,9 +197,5 @@ export default {
   background-image: url(../assets/line-new.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-.img-wrapper {
-  display: flex;
-  justify-content: center;
 }
 </style>

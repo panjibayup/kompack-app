@@ -17,7 +17,7 @@
                   <img src="../assets/home.0f137a7.png" alt="rumah" />
                 </div>
                 <div class="col-lg-8 col-md-9 col-10 sub subhead-sect2">
-                  <p>Keterbatasan tempat dan biaya dalam menyediakan fasilitas gudang sendiri</p>
+                  <p class="text-start pb-2">Keterbatasan tempat dan biaya dalam menyediakan fasilitas gudang sendiri</p>
                 </div>
               </div>
             </div>
@@ -27,7 +27,7 @@
                   <img src="../assets/jam.60da5ff.png" alt="jam" />
                 </div>
                 <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
-                  <p>Tidak cukup waktu dalam mengurus penyimpanan hingga pengemasan barang</p>
+                  <p class="text-start pb-2">Tidak cukup waktu dalam mengurus penyimpanan hingga pengemasan barang</p>
                 </div>
               </div>
             </div>
@@ -37,35 +37,35 @@
     </div>
   </section>
   <section id="section-3">
-    <div class="head-sect3 mt-2" data-aos="fade-down" data-aos-duration="1000">
+    <div class="head-sect3" data-aos="fade-down" data-aos-duration="1000">
       <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
     <div class="row justify-content-center d-none d-sm-flex row-sect3 mt-5 pe-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
           <img class="image-sect3 ms-4" src="../assets/practis.584a411.svg" alt="praktis" />
-          <h4 class="pt-3">Praktis</h4>
-          <p class="desc-sect3">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
+          <h4 class="pt-3 text-center">Praktis</h4>
+          <p class="p-1 desc-sect3">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
           <img class="image-sect3 ms-4" src="../assets/hemat.b3a6bae.svg" alt="hemat" />
-          <h4 class="pt-3 judul-sect3">Hemat</h4>
-          <p class="desc-sect3">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
+          <h4 class="pt-3 text-center judul-sect3">Hemat</h4>
+          <p class="p-1 desc-sect3">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-left" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
           <img class="ms-4 mt-4 mudah" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
-          <h4 class="pt-3">Mudah</h4>
-          <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
+          <h4 class="pt-3 text-center">Mudah</h4>
+          <p class="p-1 desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
         </div>
       </div>
     </div>
     <div class="row justify-content-center d-block d-sm-none row-sect3 mt-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5" data-aos="fade-up-right" data-aos-duration="1000">
-        <div class="card rounded-5 shadow border-none px-3">
+        <div class="card rounded-4 shadow border-none px-3">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/practis.584a411.svg" alt="praktis" />
             <h4 class="text-center">Praktis</h4>
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5" data-aos="fade-up-left" data-aos-duration="1000">
-        <div class="card rounded-5 shadow border-none px-3">
+        <div class="card rounded-4 shadow border-none px-3">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/hemat.b3a6bae.svg" alt="praktis" />
             <h4 class="text-center">Hemat</h4>
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5">
-        <div class="card rounded-5 shadow border-none px-3" data-aos="fade-up-right" data-aos-duration="1000">
+        <div class="card rounded-4 shadow border-none px-3" data-aos="fade-up-right" data-aos-duration="1000">
           <div class="card-body justify-content-center">
             <img class="w-25 position-absolute top-0 start-40 translate-middle" src="../assets/mudah.4bdacb6.svg" alt="praktis" />
             <h4 class="text-center">Mudah</h4>
@@ -106,11 +106,8 @@ export default {
 <style scoped>
 .subhead-sect2 p {
   align-self: center;
-  text-align: left;
-  font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.5px;
-  padding-bottom: 20px;
   border-bottom: 1px solid #4285f4;
 }
 .conten-sect2 {
@@ -123,11 +120,6 @@ export default {
   cursor: pointer;
 }
 
-.head-sect3 h2 {
-  text-align: center;
-  margin-top: 120px;
-}
-
 .mobile {
   cursor: pointer;
   margin: 2rem;
@@ -137,10 +129,10 @@ export default {
 
   box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
 }
-
-h4.pt-3 {
-  text-align: center;
+#section-3 {
+  margin-top: 120px;
 }
+
 .conten-sect3 {
   cursor: pointer;
   margin: 2rem;
@@ -152,10 +144,6 @@ h4.pt-3 {
 }
 .desc-sect3 {
   display: none;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px;
-  font-family: poppins;
 }
 
 .conten-sect3:hover {
@@ -172,8 +160,6 @@ h4.pt-3 {
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 p.text-center {
