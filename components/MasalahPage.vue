@@ -40,30 +40,30 @@
     <div class="head-sect3" data-aos="fade-down" data-aos-duration="1000">
       <h2 class="fw-semibold text-center">Mengapa harus Kompack?</h2>
     </div>
-    <div class="row justify-content-center d-none d-sm-flex row-sect3 mt-5 pe-5">
+    <div class="row justify-content-center d-none d-md-flex row-sect3 mt-5 pe-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
-          <img class="image-sect3 ms-4" src="../assets/practis.584a411.svg" alt="praktis" />
+          <img class="image-sect3" src="../assets/practis.584a411.svg" alt="praktis" />
           <h4 class="pt-3 text-center">Praktis</h4>
           <p class="p-1 desc-sect3">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
-          <img class="image-sect3 ms-4" src="../assets/hemat.b3a6bae.svg" alt="hemat" />
+          <img class="image-sect3" src="../assets/hemat.b3a6bae.svg" alt="hemat" />
           <h4 class="pt-3 text-center judul-sect3">Hemat</h4>
           <p class="p-1 desc-sect3">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up-left" data-aos-duration="1000">
         <div class="conten-sect3 py-3">
-          <img class="ms-4 mt-4 mudah" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
+          <img class="mt-4 mudah" src="../assets/mudah.4bdacb6.svg" alt="mudah" />
           <h4 class="pt-3 text-center">Mudah</h4>
           <p class="p-1 desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
         </div>
       </div>
     </div>
-    <div class="row justify-content-center d-block d-sm-none row-sect3 mt-5">
+    <div class="row justify-content-center d-block d-md-none row-sect3 mt-5">
       <div class="col-xl-3 col-lg-3 col-md-4 col-12 px-5 mb-5" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="card rounded-4 shadow border-none px-3">
           <div class="card-body justify-content-center">
@@ -164,6 +164,12 @@ export default {
 
 p.text-center {
   font-size: 14px;
+}
+.image-sect3 {
+  margin-left: 50px;
+}
+.mudah {
+  margin-left: 45px;
 }
 
 /* RESPONSIVE */
@@ -320,6 +326,14 @@ img.mudah {
     width: 320px;
     height: 110px;
   }
+  .image-sect3 {
+    width: 70%;
+    margin-left: 30px;
+  }
+  .mudah {
+    width: 75%;
+    margin-left: 25px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -327,7 +341,20 @@ img.mudah {
     margin-top: 0;
   }
   .image-sect3 {
+    width: 70%;
+    margin-left: 35px;
+  }
+  .mudah {
     width: 75%;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1201px) {
+  .image-sect3 {
+    margin-left: 75px;
+  }
+  .mudah {
+    margin-left: 70px;
   }
 }
 </style>

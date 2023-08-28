@@ -26,7 +26,7 @@
                 <span class="text-white"> +62 813-2801-2118 </span>
               </div>
             </div>
-            <div class="row d-flex gap-2 mb-4">
+            <div class="row d-flex gap-2">
               <div class="col-1">
                 <img src="../assets/pesan.svg" alt="" />
               </div>
@@ -104,6 +104,13 @@
             </div>
           </div>
 
+          <div class="row mb-4">
+            <div class="d-flex gap-2">
+              <NuxtLink to="/syarat" class="text-white text-decoration-none animation"><span>Syarat dan ketentuan</span></NuxtLink>
+              <NuxtLink to="/privasi" class="text-white text-decoration-none animation"><span>Kebijakan privasi</span></NuxtLink>
+            </div>
+          </div>
+
           <div class="d-flex flex-column-reverse flex-lg-row gap-4 gap-lg-0 justify-content-between mt-3">
             <div class="text-white">Copyright © 2023 Komerce. All Rights Reserved</div>
             <div class="text-white">Trademark of PT Kampung Marketerindo Berdaya</div>
@@ -133,6 +140,28 @@ footer {
 }
 .col-partner img {
   width: 40px;
+}
+
+.animation {
+  display: inline-block;
+  position: relative;
+}
+.animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media (max-width: 768px) and (max-width: 991.98px) {
