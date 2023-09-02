@@ -349,7 +349,7 @@ img.mudah {
     margin-left: 30px;
   }
 }
-@media (min-width: 1201px) {
+@media (min-width: 1300px) {
   .image-sect3 {
     margin-left: 75px;
   }
